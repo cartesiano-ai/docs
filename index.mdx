@@ -1,97 +1,92 @@
 ---
-title: "Introduction"
-description: "Welcome to the new home for your documentation"
+title: "Cartesiano.ai Guide"
+description: "Welcome to the startup guide for Cartesiano.ai, the most advanced AI search analytics tool for marketing teams."
 ---
 
-## Setting up
+## Introduction
 
-Get your documentation site up and running in minutes.
+Welcome to [Cartesiano.ai](http://Cartesiano.ai) ! This guide will walk you through the initial setup and core features of the platform. Our goal is to help you understand how your brand is being represented in AI-powered search and how you can optimize your online presence.
 
-<Card
-  title="Start here"
-  icon="rocket"
-  href="/quickstart"
-  horizontal
->
-  Follow our three step quickstart guide.
-</Card>
+### What is Cartesiano.ai?
 
-## Make it yours
+[Cartesiano.ai](http://Cartesiano.ai) is an advanced AI search analytics tool designed for marketing teams. It allows you to:
 
-Design a docs site that looks great and empowers your users.
+- **Monitor your brand's visibility** across different Large Language Models (LLMs) such as OpenAI's ChatGPT, Google's Gemini, Anthropic's Claude, and many more.
+- **Track your brand ranking** for key prompts and queries.
+- **Analyze the sentiment** of how your brand is portrayed in AI search engines.
+- **Identify source citations**, meaning, the online publications the AI search engines are referencing to learn about your brand.
+- **Benchmark your performance** against competitors.
 
-<Columns cols={2}>
-  <Card
-    title="Edit locally"
-    icon="pen-to-square"
-    href="/development"
-  >
-    Edit your docs locally and preview them in real time.
-  </Card>
-  <Card
-    title="Customize your site"
-    icon="palette"
-    href="/essentials/settings"
-  >
-    Customize the design and colors of your site to match your brand.
-  </Card>
-    <Card
-    title="Set up navigation"
-    icon="map"
-    href="/essentials/navigation"
-  >
-    Organize your docs to help users find what they need and succeed with your product.
-  </Card>
-  <Card
-    title="API documentation"
-    icon="terminal"
-    href="/api-reference/introduction"
-  >
-    Auto-generate API documentation from OpenAPI specifications.
-  </Card>
-</Columns>
+By the end of this guide, you will have a fully configured dashboard that provides daily insights into your AI search performance.
 
-## Create beautiful pages
+---
 
-Everything you need to create world-class documentation.
+## 1. Adding Your Company
 
-<Columns cols={2}>
-  <Card
-    title="Write with MDX"
-    icon="pen-fancy"
-    href="/essentials/markdown"
-  >
-    Use MDX to style your docs pages.
-  </Card>
-  <Card
-    title="Code samples"
-    icon="code"
-    href="/essentials/code"
-  >
-    Add sample code to demonstrate how to use your product.
-  </Card>
-  <Card
-    title="Images"
-    icon="image"
-    href="/essentials/images"
-  >
-    Display images and other media.
-  </Card>
-  <Card
-    title="Reusable snippets"
-    icon="recycle"
-    href="/essentials/reusable-snippets"
-  >
-    Write once and reuse across your docs.
-  </Card>
-</Columns>
+The first step is to provide some basic information about your company. This will allow our tool to start gathering data and suggesting relevant prompts and competitors.
 
-## Need inspiration?
+1. **Navigate to the 'Companies' tab** in the main menu.
+2. Under the 'Add a company' section, **enter your company name and website URL**.
+3. **Click 'Save'**.
 
-<Card
-  title="See complete examples"
-  icon="stars"
-  href="https://mintlify.com/customers"
->
-  Browse our showcase of exceptional documentation sites.
-</Card>
+Our system will now automatically analyze your website to understand your industry, products, and services. This analysis is used to generate a list of suggested prompts and identify potential competitors that you should be tracking.
+
+---
+
+## 2. Creating Your First Prompt
+
+Prompts are the questions and queries that users enter into LLMs. Tracking the right prompts is crucial for understanding your brand's visibility.
+
+### Using Suggested Prompts
+
+Based on your company information, our powerful AI engine is able to leverage its existing knowledge about your brand, it's target users, and we even scrape your website content in real-time to be able to provide a list of suggested prompts. You can find these in the 'Prompts' section of your dashboard. To start tracking a suggested prompt, simply click the **'Track'** button next to it.
+
+### Adding a Custom Prompt
+
+You have the flexibility to add any prompt you want to track.
+
+1. **Go to the 'Prompts' section.**
+2. **Click on 'Add New Prompt'.**
+3. **Enter the prompt** you want to track (e.g., "What is the best CRM for small businesses?").
+4. **Select the LLMs** you want to track this prompt in (e.g., ChatGPT, Gemini, Claude).
+6. **Click 'Add Prompt'**.
+
+Everytime you add a prompt, we will automatically process it immediately, so that you have access to its performance right away. After that, we periodically run all of your prompts across all target AI searh engines every 24 hours.
+
+---
+
+## 3. Tracking a Competitor
+
+Understanding how your competitors are performing in AI search is key to identifying opportunities and refining your strategy.
+
+1. **Navigate to the 'Competitors' tab.**
+2. You will see a list of **suggested competitors** based on our analysis of your website. To start tracking a suggested competitor, click the **'Track'** button.
+3. To add a competitor manually, click **'Add Competitor'**.
+4. **Enter the competitor's name and website URL.**
+5. **Click 'Add'**.
+
+Once you've added competitors, their performance will be benchmarked against yours across all your tracked prompts.
+
+---
+
+## 4. Understanding Your Dashboard
+
+The main dashboard is where you'll find all the analytics for your tracked prompts. Here's a breakdown of the key metrics:
+
+### Share of Voice
+
+Share of Voice (SoV) measures your brand's visibility compared to your competitors for the prompts you are tracking. [1, 4] A higher SoV means your brand is mentioned more frequently and prominently in AI-generated responses.
+
+### Average Rank
+
+This metric shows your brand's average ranking within the AI-generated responses. A lower number indicates a better ranking (e.g., a rank of 1 means you were the first brand mentioned).
+
+### Sentiment Analysis
+
+We analyze the sentiment of the text surrounding your brand's mentions, categorizing it as **positive, neutral, or negative**. [9] This helps you understand the context in which your brand is being discussed.
+
+### Competitor Placement
+
+The 'Competitors' tab on your dashboard provides a side-by-side comparison of your performance against your competitors for each tracked prompt. You can see who is gaining or losing visibility over time.
+
+---
