@@ -19,7 +19,8 @@
             "pages": [
               "dashboard",
               "prompts",
-              "sources"
+              "sources",
+              "competitors"
             ]
           }
         ]
