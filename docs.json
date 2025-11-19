@@ -8,25 +8,25 @@
     "dark": "#15803D"
   },
   "favicon": "/favicon.svg",
-  "navigation": {
-    "groups": [
-      {
-        "group": "Getting started",
-        "pages": [
-          "pages/index"
-        ]
-      },
-      {
-        "group": "Core Features",
-        "pages": [
-          "pages/dashboard",
-          "pages/prompts",
-          "pages/sources",
-          "pages/competitors"
-        ]
-      }
-    ]
-  },
+"navigation": {
+  "groups": [
+    {
+      "group": "Getting started",
+      "pages": [
+        "index"
+      ]
+    },
+    {
+      "group": "Core Features",
+      "pages": [
+        "dashboard",
+        "prompts",
+        "sources",
+        "competitors"
+      ]
+    }
+  ]
+},
   "logo": {
     "light": "/logo/light.svg",
     "dark": "/logo/dark.svg"
