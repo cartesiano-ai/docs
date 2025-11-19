@@ -1,7 +1,7 @@
 {
   "$schema": "https://mintlify.com/docs.json",
   "theme": "mint",
-  "name": "Mint Starter Kit",
+  "name": "Cartesiano.ai",
   "colors": {
     "primary": "#16A34A",
     "light": "#07C983",
@@ -9,21 +9,23 @@
   },
   "favicon": "/favicon.svg",
   "navigation": {
-        "groups": [
-          {
-            "group": "Getting started",
-            "pages": [
-              "index"
-            ],
-            "group": "Core Features",
-            "pages": [
-              "dashboard",
-              "prompts",
-              "sources",
-              "competitors"
-            ]
-          }
+    "groups": [
+      {
+        "group": "Getting started",
+        "pages": [
+          "index"
         ]
+      },
+      {
+        "group": "Core Features",
+        "pages": [
+          "dashboard",
+          "prompts",
+          "sources",
+          "competitors"
+        ]
+      }
+    ]
   },
   "logo": {
     "light": "/logo/light.svg",
