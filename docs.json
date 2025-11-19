@@ -13,16 +13,16 @@
       {
         "group": "Getting started",
         "pages": [
-          "index"
+          "pages/index"
         ]
       },
       {
         "group": "Core Features",
         "pages": [
-          "dashboard",
-          "prompts",
-          "sources",
-          "competitors"
+          "pages/dashboard",
+          "pages/prompts",
+          "pages/sources",
+          "pages/competitors"
         ]
       }
     ]
