@@ -3,7 +3,7 @@
   "theme": "mint",
   "name": "Cartesiano.ai",
   "colors": {
-    "primary": "#000000",
+    "primary": "#16A34A",
     "light": "#07C983",
     "dark": "#15803D"
   },
@@ -21,6 +21,15 @@
       "pages": [
         "dashboard",
         "prompts",
+        "sources",
+        "competitors"
+      ]
+    },
+    {
+      "group": "Analysis",
+      "pages": [
+        "ai-search-optimization",
+        "key-metrics",
         "sources",
         "competitors"
       ]
