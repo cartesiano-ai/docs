@@ -27,6 +27,14 @@
       ]
     },
     {
+      "group": "Key Metrics",
+      "pages": [
+        "visibility",
+        "position",
+        "sentiment"
+      ]
+    },
+    {
       "group": "Guides",
       "pages": [
         "ai-search-optimization",
